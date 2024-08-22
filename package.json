@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm orderly.ts"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "ts-node": "^10.9.2"
+  }
+}
